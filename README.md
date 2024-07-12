@@ -1,7 +1,7 @@
 # BLOCKCHAIN
 
-# Apa itu Blockchain?
-## Model Sequelize
+## Apa itu Blockchain?
+
   Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antara node jaringan komputer. Mereka terkenal karena peran penting mereka dalam sistem mata uang kripto untuk menjaga catatan transaksi yang aman dan terdesentralisasi, namun mereka tidak terbatas pada penggunaan mata uang kripto. Blockchain dapat digunakan untuk membuat data di industri mana pun tidak dapat diubah—istilah yang digunakan untuk menggambarkan ketidakmampuan untuk diubah. Berbagai jenis informasi dapat disimpan di blockchain, namun penggunaan transaksi yang paling umum adalah sebagai buku besar. Dalam kasus Bitcoin, blockchain bersifat terdesentralisasi, sehingga tidak ada satu orang atau kelompok pun yang memiliki kendali—sebaliknya, semua pengguna secara kolektif tetap memegang kendali. Blockchain yang terdesentralisasi tidak dapat diubah, artinya data yang dimasukkan tidak dapat diubah. Untuk Bitcoin, transaksi dicatat secara permanen dan dapat dilihat oleh siapa saja.
   
 Pada [sequelize](https://sequelize.org/) terdapat 2 cara untuk membuat model, yaitu menggunakan :
