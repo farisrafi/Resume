@@ -27,8 +27,8 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 
 1. Kriptografi: Blockchain menggunakan kriptografi untuk mengamankan, integritas, dan autentikasi data. Ada beberapa komponen kriptografi penting dalam blockchain, salah satunya adalah hashing.
 
-- Hashing adalah proses di mana input data dari berbagai ukuran panjang data diubah menjadi output tetap dengan panjang tertentu. Algoritma hashing mengambil input data (disebut juga sebagai pesan) dan menghasilkan output yang disebut hash atau digest. Hash ini adalah representasi unik dari input data tersebut. \*
-Sifat-sifat Hashing :
+- Hashing adalah proses di mana input data dari berbagai ukuran panjang data diubah menjadi output tetap dengan panjang tertentu. Algoritma hashing mengambil input data (disebut juga sebagai pesan) dan menghasilkan output yang disebut hash atau digest. Hash ini adalah representasi unik dari input data tersebut
+(-) Sifat-sifat Hashing :
 </details>
 
 ## Proses Transaksi
