@@ -8,12 +8,12 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 
 <summary>Detail Penjelasan</summary>
 
-## Desentralisasi :
+# Desentralisasi :
 
 - Tidak Ada Otoritas Pusat : Dalam sistem tradisional seperti bank, ada otoritas pusat yang mengelola dan memverifikasi semua transaksi. Dalam blockchain, semua peserta (node) dalam jaringan memiliki salinan yang sama dari seluruh blockchain. Tidak ada satu entitas yang memiliki kendali penuh.
 - Salinan Data yang Sama : Setiap node dalam jaringan blockchain menyimpan salinan lengkap dari seluruh rantai blok. Ini berarti bahwa setiap node memiliki semua informasi yang sama, yang membuat sistem lebih tahan terhadap kegagalan dan serangan
 
-## Struktur Blok dan Rantai :
+# Struktur Blok dan Rantai :
 
 1. Blok (Block): Data transaksi dikumpulkan ke dalam blok. Setiap blok terdiri dari beberapa elemen penting :
 
@@ -23,17 +23,6 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 
 2. Rantai (Chain): Blok-blok ini dihubungkan secara berurutan dari awal hingga blok terbaru, membentuk sebuah rantai. Karena setiap blok berisi hash dari blok sebelumnya, ini menciptakan sebuah urutan kronologis yang sulit diubah.
 </details>
-
-- Desentralisasi :
-
-  - Tidak Ada Otoritas Pusat : Dalam sistem tradisional seperti bank, ada otoritas pusat yang mengelola dan memverifikasi semua transaksi. Dalam blockchain, semua peserta (node) dalam jaringan memiliki salinan yang sama dari seluruh blockchain. Tidak ada satu entitas yang memiliki kendali penuh.
-  - Salinan Data yang Sama : Setiap node dalam jaringan blockchain menyimpan salinan lengkap dari seluruh rantai blok. Ini berarti bahwa setiap node memiliki semua informasi yang sama, yang membuat sistem lebih tahan terhadap kegagalan dan serangan
-
-- Struktur Blok dan Rantai :
-  - Blok (Block): Data transaksi dikumpulkan ke dalam blok. Setiap blok terdiri dari beberapa elemen penting :
-    > Data Transaksi: Informasi mengenai transaksi yang terjadi, misalnya siapa yang mengirim apa kepada siapa.
-    > Hash Blok: Sebuah fingerprint digital unik dari blok tersebut yang dihasilkan menggunakan algoritma kriptografi.
-    > Hash Blok Sebelumnya: Fingerprint digital dari blok sebelumnya dalam rantai, yang menghubungkan blok satu dengan yang lainnya.
 
 ## Proses Transaksi
 
