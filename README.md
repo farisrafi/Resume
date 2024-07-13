@@ -10,9 +10,9 @@
   
   - Struktur Blok dan Rantai :
     * Blok (Block): Data transaksi dikumpulkan ke dalam blok. Setiap blok terdiri dari beberapa elemen penting :
-     * Data Transaksi: Informasi mengenai transaksi yang terjadi, misalnya siapa yang mengirim apa kepada siapa.
-     * Hash Blok: Sebuah fingerprint digital unik dari blok tersebut yang dihasilkan menggunakan algoritma kriptografi.
-     * Hash Blok Sebelumnya: Fingerprint digital dari blok sebelumnya dalam rantai, yang menghubungkan blok satu dengan yang lainnya.
+      > Data Transaksi: Informasi mengenai transaksi yang terjadi, misalnya siapa yang mengirim apa kepada siapa.
+      > Hash Blok: Sebuah fingerprint digital unik dari blok tersebut yang dihasilkan menggunakan algoritma kriptografi.
+      > Hash Blok Sebelumnya: Fingerprint digital dari blok sebelumnya dalam rantai, yang menghubungkan blok satu dengan yang lainnya.
 
 ## Proses Transaksi
 ![diagram alur kerja dbms](./Images/images_process_transaksi.jpg)
