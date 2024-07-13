@@ -6,7 +6,7 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 
 <details>
 
-**<summary> Detail Penjelasan </summary>**
+**<summary> ## Detail Penjelasan </summary>**
 
 ### Desentralisasi :
 
