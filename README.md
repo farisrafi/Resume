@@ -6,14 +6,14 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 
 <details>
 
-<summary>Detail Penjelasan</summary>
+<summary>** Detail Penjelasan **</summary>
 
-# Desentralisasi :
+### Desentralisasi :
 
 - Tidak Ada Otoritas Pusat : Dalam sistem tradisional seperti bank, ada otoritas pusat yang mengelola dan memverifikasi semua transaksi. Dalam blockchain, semua peserta (node) dalam jaringan memiliki salinan yang sama dari seluruh blockchain. Tidak ada satu entitas yang memiliki kendali penuh.
 - Salinan Data yang Sama : Setiap node dalam jaringan blockchain menyimpan salinan lengkap dari seluruh rantai blok. Ini berarti bahwa setiap node memiliki semua informasi yang sama, yang membuat sistem lebih tahan terhadap kegagalan dan serangan
 
-# Struktur Blok dan Rantai :
+### Struktur Blok dan Rantai :
 
 1. Blok (Block): Data transaksi dikumpulkan ke dalam blok. Setiap blok terdiri dari beberapa elemen penting :
 
