@@ -6,7 +6,7 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 
 <details>
 
-**<summary> ## Detail Penjelasan </summary>**
+**<summary> Detail Penjelasan </summary>**
 
 ### Desentralisasi :
 
@@ -22,6 +22,13 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 - Hash Blok Sebelumnya: Fingerprint digital dari blok sebelumnya dalam rantai, yang menghubungkan blok satu dengan yang lainnya.
 
 2. Rantai (Chain): Blok-blok ini dihubungkan secara berurutan dari awal hingga blok terbaru, membentuk sebuah rantai. Karena setiap blok berisi hash dari blok sebelumnya, ini menciptakan sebuah urutan kronologis yang sulit diubah.
+
+### Keamanan/Security
+
+1. Kriptografi: Blockchain menggunakan kriptografi untuk mengamankan, integritas, dan autentikasi data. Ada beberapa komponen kriptografi penting dalam blockchain, salah satunya adalah hashing.
+
+- Hashing adalah proses di mana input data dari berbagai ukuran panjang data diubah menjadi output tetap dengan panjang tertentu. Algoritma hashing mengambil input data (disebut juga sebagai pesan) dan menghasilkan output yang disebut hash atau digest. Hash ini adalah representasi unik dari input data tersebut. \*
+Sifat-sifat Hashing :
 </details>
 
 ## Proses Transaksi
