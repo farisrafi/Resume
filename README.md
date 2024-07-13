@@ -15,11 +15,13 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 
 ## Struktur Blok dan Rantai :
 
-- Blok (Block): Data transaksi dikumpulkan ke dalam blok. Setiap blok terdiri dari beberapa elemen penting :
-  - Data Transaksi: Informasi mengenai transaksi yang terjadi, misalnya siapa yang mengirim apa kepada siapa.
-  - Hash Blok: Sebuah fingerprint digital unik dari blok tersebut yang dihasilkan menggunakan algoritma kriptografi.
-  - Hash Blok Sebelumnya: Fingerprint digital dari blok sebelumnya dalam rantai, yang menghubungkan blok satu dengan yang lainnya.
+1. Blok (Block): Data transaksi dikumpulkan ke dalam blok. Setiap blok terdiri dari beberapa elemen penting :
 
+- Data Transaksi: Informasi mengenai transaksi yang terjadi, misalnya siapa yang mengirim apa kepada siapa.
+- Hash Blok: Sebuah fingerprint digital unik dari blok tersebut yang dihasilkan menggunakan algoritma kriptografi.
+- Hash Blok Sebelumnya: Fingerprint digital dari blok sebelumnya dalam rantai, yang menghubungkan blok satu dengan yang lainnya.
+
+2. Rantai (Chain): Blok-blok ini dihubungkan secara berurutan dari awal hingga blok terbaru, membentuk sebuah rantai. Karena setiap blok berisi hash dari blok sebelumnya, ini menciptakan sebuah urutan kronologis yang sulit diubah.
 </details>
 
 - Desentralisasi :
