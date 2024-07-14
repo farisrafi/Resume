@@ -105,6 +105,9 @@ Jika seseorang mencoba mengubah data dalam blok kedua dari "Transaksi B" menjadi
 
 ![alur kerja blockchain](./Images/cara_kerja_blockchain.jpg)
 
+- Analogi Sederhanya :
+  Contoh sederhana yaitu saat terjadi transaksi peminjaman bola antara Anton dan Budi. Anton, yang memiliki 3 bola memberi pinjaman 2 bola kepada Budi. Anton mencatat 2 bola yang dipinjam Budi untuk mengingatnya. Dalam sistem konvensional, Budi bisa mengelak telah menerima 2 bola dari Anton. Alasannya tentu karena hanya Anton yang punya catatan mengenai 2 bola yang dipinjam Budi. Budi dan teman yang lain, tidak memiliki catatan tersebut. Namun, dengan menggunakan sistem blockchain, ketika Anton akan meminjamkan 2 bola pada Budi, seketika itu juga kabar transaksi tersebut disebarkan, selain diterima oleh Anton dan Budi, kabar juga diterima oleh kawan mereka yang lain. Anton, Budi, dan teman-teman lainnya memvalidasi transaksi tersebut. Jika semua menyatakan transaksi benar terjadi, pinjaman 2 bola itu lalu dicatat. Pencatatan tidak hanya di buku milik Anton, tapi juga buku milik Budi, dan juga buku teman-teman lainnya. Untuk melindunginya dari kecurangan, catatan tersebut diproteksi dengan sampul dan masing-masing pemilik tidak bisa menghapus catatan.
+
 Pada [sequelize](https://sequelize.org/) terdapat 2 cara untuk membuat model, yaitu menggunakan :
 
 - [`sequelize.define()`](https://sequelize.org/api/v6/class/src/sequelize.js~sequelize#instance-method-define)
