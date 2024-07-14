@@ -34,7 +34,8 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 ```
 - Deterministik: Input yang sama akan selalu menghasilkan hash yang sama.
 - Cepat: Proses menghasilkan hash dari input sangat cepat.
-- Output Tetap: Panjang hash selalu sama, tidak peduli seberapa besar atau kecil inputnya. Misalnya, SHA-256 menghasilkan hash sepanjang 256 bit.
+- Output Tetap: Panjang hash selalu sama, tidak peduli seberapa besar atau kecil inputnya.
+  Misalnya, SHA-256 menghasilkan hash sepanjang 256 bit.
 - Pra-gambar Resisten: Sulit untuk menemukan input yang sesuai dengan hash tertentu.
 - Tahan Tabrakan: Sulit untuk menemukan dua input berbeda yang menghasilkan hash yang sama.
 - Avalanche Effect: Perubahan kecil pada input menghasilkan perubahan besar pada hash.
