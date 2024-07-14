@@ -43,14 +43,61 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 
 - Penggunaan Hashing dalam Blockchain
 
-* Menghubungkan Blok:
+1.  Menghubungkan Blok :
 
 ```
-- Setiap blok dalam blockchain berisi hash dari blok sebelumnya. 
+- Setiap blok dalam blockchain berisi hash dari blok sebelumnya.
   Ini menciptakan koneksi berantai antara blok-blok tersebut, membentuk rantai (chain).
-- Jika data dalam satu blok diubah, hash dari blok itu juga berubah. Karena setiap blok berisi hash dari blok sebelumnya, 
+- Jika data dalam satu blok diubah, hash dari blok itu juga berubah. Karena setiap blok berisi hash dari blok sebelumnya,
   perubahan pada satu blok akan memutus rantai hash, membuat perubahan tersebut mudah terdeteksi.
 ```
+
+2.  Mengamankan Data Transaksi :
+
+```
+- Setiap transaksi dalam blok juga dapat di-hash untuk menghasilkan hash transaksi.
+- Semua hash transaksi dalam satu blok kemudian digabungkan menggunakan struktur yang disebut Merkle Tree.
+  Hash root dari Merkle Tree ini dimasukkan dalam header blok.
+```
+
+3.  Proses Mining/Penambangan :
+
+```
+- Dalam mekanisme Proof of Work (PoW), miners bersaing untuk menemukan nonce (angka yang digunakan sekali) yang,
+  bila digabungkan dengan data blok lainnya, menghasilkan hash yang memenuhi kondisi tertentu (misalnya, dimulai dengan sejumlah nol tertentu).
+- Proses ini memerlukan banyak upaya dan daya komputasi, dan sulit untuk dihasilkan ulang tanpa melakukan pekerjaan yang sama.
+```
+
+- Contoh Hashing dalam Blockchain untuk menghubungkan blok :
+
+1. Blok Pertama (Blok Genesis)
+
+```
+- Data: "Transaksi A"
+- Hash dari Blok: SHA-256("Transaksi A") = 1111
+```
+
+2. Blok Kedua :
+
+```
+- Data: "Transaksi B"
+- Hash dari Blok Sebelumnya: 1111
+- Kombinasi Data: "Transaksi B" + 1111
+- Hash dari Blok: SHA-256("Transaksi B" + 1111) = 2222
+```
+
+3. Blok Ketiga:
+
+```
+- Data: "Transaksi C"
+- Hash dari Blok Sebelumnya: 2222
+- Kombinasi Data: "Transaksi C" + 2222
+- Hash dari Blok: SHA-256("Transaksi C" + 2222) = 3333
+```
+
+Jika seseorang mencoba mengubah data dalam blok kedua dari "Transaksi B" menjadi "Transaksi X", hash dari blok kedua akan berubah. Ini menyebabkan hash dari blok ketiga menjadi tidak valid, dan semua blok berikutnya juga akan menjadi tidak valid. Untuk memperbaiki rantai, peretas harus menghitung ulang semua hash dari blok yang terpengaruh, yang memerlukan waktu dan sumber daya yang sangat besar.
+
+2.  Immutability: Sekali data ditambahkan ke blockchain, sangat sulit untuk mengubahnya. Untuk mengubah data dalam satu blok, hash dari blok itu dan semua blok berikutnya harus diubah, yang memerlukan persetujuan mayoritas dari node dalam jaringan.
 
 </details>
 
