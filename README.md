@@ -103,7 +103,7 @@ Jika seseorang mencoba mengubah data dalam blok kedua dari "Transaksi B" menjadi
 
 ## Alur Kerja Blockchain
 
-![alur kerja blockchain](./Images/cara_kerja_blokcain.jpg)
+![alur kerja blockchain](./Images/cara_kerja_blockchain.jpg)
 
 Pada [sequelize](https://sequelize.org/) terdapat 2 cara untuk membuat model, yaitu menggunakan :
 
