@@ -173,21 +173,21 @@ Dengan mekanisme konsensus, blockchain dapat menjaga integritas dan keamanannya 
 
 Blockchain tidak hanya digunakan untuk cryptocurrency seperti Bitcoin dan Ethereum. Teknologi ini telah meluas ke berbagai sektor, termasuk:
 
-- Logistik: Melacak pengiriman barang secara transparan dan aman.
-- Kesehatan: Menyimpan catatan medis yang tidak dapat diubah dan dapat diakses oleh semua penyedia layanan kesehatan yang sah.
-- Perbankan: Memfasilitasi transaksi internasional yang cepat dan murah tanpa memerlukan perantara.
-- Hak Kekayaan Intelektual: Melacak kepemilikan dan distribusi karya digital.
+- Logistik : Melacak pengiriman barang secara transparan dan aman.
+- Kesehatan : Menyimpan catatan medis yang tidak dapat diubah dan dapat diakses oleh semua penyedia layanan kesehatan yang sah.
+- Perbankan : Memfasilitasi transaksi internasional yang cepat dan murah tanpa memerlukan perantara.
+- Hak Kekayaan Intelektual : Melacak kepemilikan dan distribusi karya digital.
 
 ## Kelebihan dan Kekurangan
 
 1. Kelebihan :
 
-- Keamanan Tinggi: Data yang tersimpan di blockchain sulit untuk diubah atau dihapus.
-- Transparansi: Semua transaksi dapat dilihat oleh semua peserta.
-- Desentralisasi: Tidak ada satu titik kegagalan.
+- Keamanan Tinggi : Data yang tersimpan di blockchain sulit untuk diubah atau dihapus.
+- Transparansi : Semua transaksi dapat dilihat oleh semua peserta.
+- Desentralisasi : Tidak ada satu titik kegagalan.
 
 2. Kekurangan :
 
-- Skalabilitas: Blockchain bisa menjadi lambat dan mahal seiring dengan bertambahnya transaksi.
-- Kompleksitas: Implementasi dan pemahaman teknologi ini memerlukan pengetahuan yang mendalam.
-- Regulasi: Masih ada banyak ketidakpastian hukum di berbagai negara mengenai penggunaan blockchain dan cryptocurrency.
+- Skalabilitas : Blockchain bisa menjadi lambat dan mahal seiring dengan bertambahnya transaksi.
+- Kompleksitas : Implementasi dan pemahaman teknologi ini memerlukan pengetahuan yang mendalam.
+- Regulasi : Masih ada banyak ketidakpastian hukum di berbagai negara mengenai penggunaan blockchain dan cryptocurrency.
