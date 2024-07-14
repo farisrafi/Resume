@@ -101,9 +101,9 @@ Jika seseorang mencoba mengubah data dalam blok kedua dari "Transaksi B" menjadi
 
 </details>
 
-## Proses Transaksi
+## Alur Kerja Blockchain
 
-![diagram alur kerja dbms](./Images/images_process_transaksi.jpg)
+![alur kerja blockchain](./Images/cara_kerja_blokcain.jpg)
 
 Pada [sequelize](https://sequelize.org/) terdapat 2 cara untuk membuat model, yaitu menggunakan :
 
