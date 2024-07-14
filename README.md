@@ -41,6 +41,17 @@ Blockchain adalah database terdistribusi atau buku besar yang dibagikan di antar
 - Avalanche Effect: Perubahan kecil pada input menghasilkan perubahan besar pada hash.
 ```
 
+- Penggunaan Hashing dalam Blockchain
+
+* Menghubungkan Blok:
+
+```
+- Setiap blok dalam blockchain berisi hash dari blok sebelumnya. 
+  Ini menciptakan koneksi berantai antara blok-blok tersebut, membentuk rantai (chain).
+- Jika data dalam satu blok diubah, hash dari blok itu juga berubah. Karena setiap blok berisi hash dari blok sebelumnya, 
+  perubahan pada satu blok akan memutus rantai hash, membuat perubahan tersebut mudah terdeteksi.
+```
+
 </details>
 
 ## Proses Transaksi
