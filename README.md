@@ -99,6 +99,47 @@ Jika seseorang mencoba mengubah data dalam blok kedua dari "Transaksi B" menjadi
 
 2.  Immutability: Sekali data ditambahkan ke blockchain, sangat sulit untuk mengubahnya. Untuk mengubah data dalam satu blok, hash dari blok itu dan semua blok berikutnya harus diubah, yang memerlukan persetujuan mayoritas dari node dalam jaringan.
 
+### Konsensus
+
+Konsensus dalam konteks blockchain adalah mekanisme yang digunakan untuk mencapai kesepakatan di antara node-node dalam jaringan terdistribusi tentang keadaan data (seperti transaksi) yang valid dan harus ditambahkan ke blockchain. Karena tidak ada otoritas pusat yang mengendalikan jaringan, mekanisme konsensus memastikan bahwa semua peserta setuju pada satu versi kebenaran, yaitu blockchain yang sah dan konsisten.
+
+1.  Mekanisme Konsensus Umum
+
+- Proof of Work (PoW) :
+
+```
+-Cara Kerja : Miners bersaing untuk memecahkan teka-teki kriptografi yang kompleks dengan mencoba banyak kombinasi sampai menemukan solusi yang valid.
+              Proses ini membutuhkan banyak daya komputasi.
+-Keuntungan : Sangat aman karena membutuhkan banyak usaha dan sumber daya untuk menghasilkan blok baru.
+-Kerugian   : Konsumsi energi yang tinggi dan skalabilitas rendah.
+-Contoh     : Digunakan oleh Bitcoin.
+```
+
+2.  Proof of Stake (PoS) :
+
+```
+- Cara Kerja : Validator dipilih untuk membuat blok baru berdasarkan jumlah cryptocurrency yang mereka "taruh" (stake) sebagai jaminan.
+               Semakin besar stake, semakin besar kemungkinan dipilih.
+- Keuntungan : Konsumsi energi lebih rendah dan lebih efisien dibandingkan PoW.
+- Kerugian   : Potensi sentralisasi karena validator dengan stake besar memiliki lebih banyak kekuasaan.
+- Contoh     : Digunakan oleh Ethereum 2.0.
+```
+
+3.  Delegated Proof of Stake (DPoS) :
+
+```
+- Cara Kerja : Pemegang token memilih sejumlah kecil delegasi yang akan memvalidasi transaksi dan membuat blok baru atas nama mereka.
+- Keuntungan : Cepat dan efisien dalam memproses transaksi.
+- Kerugian   : Potensi sentralisasi karena kekuasaan terpusat pada sedikit delegasi.
+ Contoh      : Digunakan oleh EOS.
+```
+
+2.  Fungsi dan Tujuan Konsensus
+    - Keamanan : Melindungi jaringan dari serangan dan memastikan bahwa hanya transaksi yang valid yang ditambahkan ke blockchain.
+    - Transparansi: Semua node memiliki akses ke salinan yang sama dari blockchain, sehingga tidak ada satu pihak yang dapat memanipulasi data.
+    - Keandalan: Sistem dapat terus berfungsi meskipun beberapa node mengalami kegagalan atau berperilaku tidak jujur.
+    - Desentralisasi: Menghindari ketergantungan pada satu otoritas pusat, memungkinkan kontrol yang lebih merata di antara peserta jaringan.
+
 </details>
 
 ## Alur Kerja Blockchain
